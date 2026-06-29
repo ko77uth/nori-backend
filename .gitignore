@@ -1,0 +1,52 @@
+# Binaries
+/bin/
+/dist/
+/*.exe
+/*.exe~
+/*.dll
+/*.so
+/*.dylib
+
+# Go workspace
+go.work
+go.work.sum
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+/vendor/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+/logs/
+
+# Testing
+*.test
+coverage.out
+coverage.html
+
+# Debug
+debug
+__debug_bin*
+
+# Generated files (но contracts/gen нужно коммитить!)
+# contracts/gen/  # НЕ ЗАКОММЕНТИРОВАННО!
+# Если не хочешь коммитить сгенерированные файлы - раскомментируй
+
+# Temporary files
+tmp/
+temp/
