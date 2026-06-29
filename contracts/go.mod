@@ -1,4 +1,4 @@
-module contracts
+module github.com/ko77uth/nori-backend/contracts
 
 go 1.26.3
 
